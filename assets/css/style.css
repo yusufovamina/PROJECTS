@@ -1,0 +1,72 @@
+header a img{
+    width: 50px;
+}
+
+header nav ul li a{
+color: red;
+font-size: 20px;
+font-family: cursive;
+}
+
+body{
+background-color: lavender;
+font-weight: 600;
+font-family: TacOne-Regular;
+}
+
+
+ul li{
+  display: inline-block;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+ul li.dropdown-element{
+  position: relative;
+}
+ul li.dropdown-element:hover .dropdown-menu{
+  display: initial;
+}
+
+ul li.dropdown-element .dropdown-menu{
+  display: none;
+  position: absolute;
+  left: -60px;
+  top: 20px;
+  animation:menu 1s;
+}
+  
+.dropdown-menu li:hover {
+  color:cornflowerblue;
+}
+
+@keyframes menu {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+  div.one{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin-top: 110px;
+    margin-bottom: 30;
+  }
+  div.two{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 110px;
+  }
+
+  span{
+    background-color: chartreuse;
+    padding: 20px;
+  }
+
+  .tac-one-regular {
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
