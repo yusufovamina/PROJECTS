@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+    background-color: #121825;
+}
+table tr{
+    border-bottom: 1px solid grey;
+}
+
+table thead{
+    background-color: black;
+    color: #9CA3AF
+}
+
+table thead tr{
+    border-bottom: none;
+}
+
+table thead tr th{
+    padding: 14px 6px;
+}
+
+table tbody{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+table thead tr td{
+    padding: 23px 0px;
+}
+
+table thead tr th:first-child{
+ border-top-left-radius: 8px;
+ border-top-right-radius: 8px;
+
+}
+
+table thead tr th:last-child{
+    border-top-right-radius: 8px;
+ border-top-left-radius: 8px;
+
+   }
